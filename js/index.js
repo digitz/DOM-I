@@ -85,3 +85,8 @@ let contact = document.querySelectorAll(".contact p");
 contact[0].textContent = siteContent["contact"]["address"];
 contact[1].textContent = siteContent["contact"]["phone"];
 contact[2].textContent = siteContent["contact"]["email"];
+
+navBar.forEach(i => {
+  i.style.color = "green";
+});
+
